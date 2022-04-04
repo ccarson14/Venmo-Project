@@ -1,0 +1,5 @@
+2022-03-22T13:02:45.375688 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-22T13:04:13.5472365 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-22T13:21:28.0039227 404 : [{"timestamp":"2022-03-22T17:21:27.972+00:00","status":404,"error":"Not Found","message":"Account not found.","path":"/account/1"}]
+2022-03-22T13:21:28.0893981 400 : [{"timestamp":"2022-03-22T17:21:28.062+00:00","status":400,"error":"Bad Request","message":"Validation failed for object='transfer'. Error count: 1","errors":[{"codes":["Positive.transfer.accountTo","P... (543 bytes)]
+2022-03-22T13:27:04.3216111 400 : [{"timestamp":"2022-03-22T17:27:04.299+00:00","status":400,"error":"Bad Request","message":"Validation failed for object='transfer'. Error count: 1","errors":[{"codes":["Positive.transfer.amount","Posi... (530 bytes)]
